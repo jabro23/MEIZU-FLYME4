@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Отмена</string>
+    <string name="cancel">Отменить</string>
     <string name="copy">Копир.</string>
     <string name="copyUrl">Копир. URL</string>
     <string name="cut">Вырез.</string>
@@ -9,7 +9,7 @@
     <string name="emptyPhoneNumber">(Нет номера телефона)</string>
     <string name="httpErrorBadUrl">Не удалось открыть страницу. URL недействителен</string>
     <string name="httpErrorUnsupportedScheme">Протокол не поддерживается</string>
-    <string name="no">Отмена</string>
+    <string name="no">Отменить</string>
     <string name="ok">ОК</string>
     <string name="paste">Встав.</string>
     <string name="search_go">Поиск</string>
@@ -844,7 +844,7 @@
 
 %s
 
-Нажмите \"ОК\", чтобы продолжить, или \"Отмена\", чтобы остаться."</string>
+Нажмите \"ОК\", чтобы продолжить, или \"Отменить\", чтобы остаться."</string>
     <string name="save_password_label">Подтвердите</string>
     <string name="double_tap_toast">Совет: нажмите дважды, чтобы увеличить и уменьшить масштаб.</string>
     <string name="autofill_this_form">Автозаполнение</string>
@@ -1031,7 +1031,7 @@
     <string name="sms_short_code_details">С вашего мобильного счета <font fgcolor="#ffffb060">могут быть списаны средства</font>.</string>
     <string name="sms_premium_short_code_details"><font fgcolor="#ffffb060">С вашего мобильного счета будут списаны средства.</font></string>
     <string name="sms_short_code_confirm_allow">Отправить</string>
-    <string name="sms_short_code_confirm_deny">Отмена</string>
+    <string name="sms_short_code_confirm_deny">Отменить</string>
     <string name="sms_short_code_remember_choice">Запомнить выбранный телефон</string>
     <string name="sms_short_code_remember_undo_instruction">Это можно изменить позже в разделе настроек \"Приложения\".</string>
     <string name="sms_short_code_confirm_always_allow">Всегда разрешать</string>
@@ -1205,7 +1205,7 @@
     <string name="date_picker_increment_year_button">На год вперед</string>
     <string name="date_picker_decrement_year_button">На год назад</string>
     <string name="keyboardview_keycode_alt">Клавиша ALT</string>
-    <string name="keyboardview_keycode_cancel">Отмена</string>
+    <string name="keyboardview_keycode_cancel">Отменить</string>
     <string name="keyboardview_keycode_delete">Клавиша удаления</string>
     <string name="keyboardview_keycode_done">Готово</string>
     <string name="keyboardview_keycode_mode_change">Клавиша смены режима</string>
@@ -1482,8 +1482,8 @@
     <string name="pattern_a_hour_before">1 час назад</string>
     <string name="pattern_minute_before">, минут назад</string>
     <string name="pattern_a_minute_before">1 минуту назад</string>
-    <string name="select">Выбрать</string>
-    <string name="copyAll">Копировать все</string>
+    <string name="select">Выбр.</string>
+    <string name="copyAll">Копир.всё</string>
     <string name="mz_recipient_hint_str">Получатель:</string>
     <string name="mz_recipient_total_str">%d чел.</string>
     <string name="mz_recipient_edit_imeActionLabel">OK</string>
@@ -1499,11 +1499,6 @@
     <string name="enable">Включить</string>
     <string name="disable">Отключить</string>
     <string name="change_num">Обновить</string>
-    <string name="mz_upgrade_tips_title">Обновление системы</string>
-    <string name="mz_upgrade_tips">Ваш телефон готов к установке новой версии системного ПО. Установка начнется после перезагрузки.</string>
-    <string name="mz_low_battery_upgrade_tips">Пожалуйста, нажмите Restart, чтобы установить системное обновление после подключения зарядного устройства</string>
-    <string name="mz_upgrade_immediately">Обновить</string>
-    <string name="mz_upgrade_later">Обновить позже</string>
     <string name="mz_update_battery_low">Низкий заряд батареи, обновление невозможно.</string>
     <string name="external_storage_device_name">USB-устройство %s</string>
     <string name="mz_upgrade_root_title">Доступ к системе</string>
@@ -1514,6 +1509,16 @@
     <string name="bluetooth_pairing_request">Настройки</string>
     <string name="url_warning_title">Открыть ссылку</string>
     <string name="url_warning_messgae">Возможно потребление трафика.</string>
+    <string name="mz_upgrade_tips_title">Обновление системы</string>
+    <string name="mz_upgrade_tips">Ваш телефон готов к установке новой версии системного ПО. Установка начнется после перезагрузки.</string>
+    <string name="mz_low_battery_upgrade_tips">Пожалуйста, нажмите Restart, чтобы установить системное обновление после подключения зарядного устройства</string>
+    <string name="mz_upgrade_immediately">Обновить</string>
+    <string name="mz_upgrade_later">Обновить позже</string>
+    <string name="tethered_notification_title_one_device">Интернет раздаётся %1$d устройству</string>
+    <string name="tethered_notification_title_devices">Интернет раздаётся %1$d устройствам</string>
+    <string name="recommend_search_mstore">Поиск в AppCenter</string>
+    <string name="recommend_search_gooleplay">Поиск %s</string>
+    <string name="recommend_open_mstore_faile">Ошибка при открытии AppCenter</string>
     <string name="requestNotSupported">Операция не поддерживается</string>
     <string name="barringPWBlocked">Пароль блокировки запрета вызовов</string>
     <string name="clckEnableVoiceFault">Ошибка включения голосовых вызовов</string>
@@ -1563,16 +1568,8 @@
     <string name="permdesc_readusagestats">Разрешить приложению читать статистику использования данных.</string>
     <string name="permlab_writeusagestats">записывать статистику использования</string>
     <string name="permdesc_writeusagestats">Разрешить приложению записывать статистику использования данных.</string>
-    <string name="call">Вызов</string>
-    <string name="call_log">Журнал вызовов</string>
-    <string name="contacts">Контакты</string>
-    <string name="r_sms">Читать SMS</string>
-    <string name="s_sms">Отправить SMS</string>
-    <string name="r_mms">Читать MMS</string>
-    <string name="s_mms">Отправить MMS</string>
     <string name="network">Мобильная сеть</string>
     <string name="wlan">Wi-Fi</string>
-    <string name="location">Местоположение</string>
     <string name="recordaudio_local">Локально/Записи вызовов</string>
     <string name="recordaudio_phone">Записи вызовов</string>
     <string name="camera">Камера</string>
@@ -1583,15 +1580,61 @@
     <string name="dlg_check_app_message_off" formatted="false">%s хочет отключить функцию: %s</string>
     <string name="open">Открыть</string>
     <string name="close">Закрыть</string>
+    <string name="remember_me">Запомнить мой выбор</string>
     <string name="allow_check_app">Разрешить</string>
     <string name="not_allow_check_app">Отклонить</string>
-    <string name="dlg_cancel">Отмена</string>
+    <string name="dlg_cancel">Отменить</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="nfc">NFC</string>
     <string name="dialog_push">Всплыв. Push-уведомл.</string>
     <string name="dlg_push_app_message">\"%s\" использует push-сообщения, которые могут быть небезопасны. Вы можете отключить это в Настройки / Контроль приложений.</string>
     <string name="allow_dialog_push">Разрешить Push</string>
     <string name="not_allow_dialog_push">Отключить</string>
+    <string name="call">Вызов</string>
+    <string name="call_c">Совершать звонки</string>
+    <string name="op_phone_state">Статус телефона</string>
+    <string name="op_phone_state_c">Получить статус телефона</string>
+    <string name="s_sms">Отправить SMS</string>
+    <string name="s_sms_c">Прямая отправка SMS</string>
+    <string name="s_mms">Отправить MMS</string>
+    <string name="s_mms_c">Прямая отправка MMS</string>
+    <string name="set_gprs_on_c">Включить передачу данных</string>
+    <string name="set_wifi_on_c">Включить Wi-Fi</string>
+    <string name="set_bluetooth_on_c">Включить Bluetooth</string>
+    <string name="contacts">Контакты</string>
+    <string name="contacts_c">Читать список контактов</string>
+    <string name="w_contacts">Изменять записи контактов</string>
+    <string name="w_contacts_c">Изменять список контактов</string>
+    <string name="d_contacts">Удалять записи контактов</string>
+    <string name="d_contacts_c">Удалять список контактов</string>
+    <string name="call_log">Журнал вызовов</string>
+    <string name="call_log_c">Читать историю вызовов</string>
+    <string name="w_call_log">Изменять историю вызовов</string>
+    <string name="w_call_log_c">Изменять историю вызовов</string>
+    <string name="d_call_log">Удалять историю вызовов</string>
+    <string name="d_call_log_c">Удалять историю вызовов</string>
+    <string name="r_sms">Читать SMS</string>
+    <string name="r_sms_c">Читать ваши SMS</string>
+    <string name="w_sms">Изменять историю SMS</string>
+    <string name="w_sms_c">Изменять входящие SMS</string>
+    <string name="d_sms">Удалять историю SMS</string>
+    <string name="d_sms_c">Удалять входящие SMS</string>
+    <string name="r_mms">Читать MMS</string>
+    <string name="r_mms_c">Читать ваши MMS</string>
+    <string name="w_mms">Изменять историю MMS</string>
+    <string name="w_mms_c">Изменять входящие MMS</string>
+    <string name="d_mms">Удалять историю MMS</string>
+    <string name="d_mms_c">Удалять входящие MMS</string>
+    <string name="op_record_audio">Микрофон</string>
+    <string name="op_record_audio_c">Использовать микрофон</string>
+    <string name="location">Местоположение</string>
+    <string name="location_c">Поиск местоположения телефона через сеть или GPS</string>
+    <string name="op_camera">Камера</string>
+    <string name="op_camera_c">Использовать камеру</string>
+    <string name="op_imei">ID телефона</string>
+    <string name="op_imei_c">Получить ID телефона</string>
+    <string name="op_setting">Настройки</string>
+    <string name="op_setting_c">Изменять системные настройки</string>
     <string name="usb_mtp_summary">Передача файлов на ПК</string>
     <string name="usb_ptp_summary">Передача фото на ПК</string>
     <string name="nfc_activity_not_found_err">NFC-передача не активна</string>
@@ -1641,7 +1684,7 @@
     <string name="webviewchromium_color_picker_saturation">Насыщенность</string>
     <string name="webviewchromium_color_picker_value">Значение</string>
     <string name="webviewchromium_color_picker_button_set">Выбрать</string>
-    <string name="webviewchromium_color_picker_button_cancel">Отмена</string>
+    <string name="webviewchromium_color_picker_button_cancel">Отменить</string>
     <string name="webviewchromium_color_picker_dialog_title">Выберите цвет</string>
     <string name="webviewchromium_color_picker_button_red">Красный</string>
     <string name="webviewchromium_color_picker_button_cyan">Голубой</string>
@@ -1668,9 +1711,4 @@
     <string name="pattern_day_month_year" formatted="false">%-e/%-m/%Y</string>
     <string name="pattern_day_month_year_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
     <string name="pattern_day_month_year_hour_minute_12" formatted="false">%-e/%-m/%Y %p %I:%M</string>
-	<string name="tethered_notification_title_one_device">Интернет раздаётся %1$d устройству</string>
-    <string name="tethered_notification_title_devices">Интернет раздаётся %1$d устройствам</string>
-	<string name="recommend_search_mstore">Поиск в AppCenter</string>
-    <string name="recommend_search_gooleplay">Поиск %s</string>
-    <string name="recommend_open_mstore_faile">Ошибка при открытии AppCenter</string>
 </resources>
