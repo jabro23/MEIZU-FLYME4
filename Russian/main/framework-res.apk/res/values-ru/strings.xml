@@ -1483,7 +1483,7 @@
     <string name="pattern_minute_before">, минут назад</string>
     <string name="pattern_a_minute_before">1 минуту назад</string>
     <string name="select">Выбр.</string>
-    <string name="copyAll">Копир.всё</string>
+    <string name="copyAll">Коп.всё</string>
     <string name="mz_recipient_hint_str">Получатель:</string>
     <string name="mz_recipient_total_str">%d чел.</string>
     <string name="mz_recipient_edit_imeActionLabel">OK</string>
