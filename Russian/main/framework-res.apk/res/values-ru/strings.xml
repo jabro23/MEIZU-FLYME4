@@ -1711,4 +1711,5 @@
     <string name="pattern_day_month_year" formatted="false">%-e/%-m/%Y</string>
     <string name="pattern_day_month_year_hour_minute" formatted="false">%-e/%-m/%Y %H:%M</string>
     <string name="pattern_day_month_year_hour_minute_12" formatted="false">%-e/%-m/%Y %p %I:%M</string>
+    <string name="free_memory_btn">Очистить</string>
 </resources>
